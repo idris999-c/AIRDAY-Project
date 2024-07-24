@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+#calendar {
+    margin-bottom: 20px;
+}
+
+#weather {
+    background: #f4f4f4;
+    padding: 20px;
+}

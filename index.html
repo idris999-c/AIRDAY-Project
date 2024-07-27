@@ -6,22 +6,30 @@
     <title>Sidebar, Calendar and Weather Forecast</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
     <div class="sidebar">
         <h2>Sidebar</h2>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Calendar</a></li>
-            <li><a href="#">Weather</a></li>
+            <li><a href="#" data-section="home">Home</a></li>
+            <li><a href="#" data-section="calendar">Calendar</a></li>
+            <li><a href="#" data-section="weather">Weather</a></li>
         </ul>
     </div>
     
     <div class="content">
-        <div id="calendar"></div>
-        <div id="weather">
-            <h2>Weather Forecast</h2>
-            <p id="forecast"></p>
+        <div id="home" class="section">
+            <h2>Home</h2>
+            <p>Welcome to the Home page.</p>
+        </div>
+        <div id="calendar" class="section">
+            <h2>Calendar</h2>
+            <!-- FullCalendar'ın çalışması için gerekli alan burada olacak -->
+        </div>
+        <div id="weather" class="section">
+            <h2>weather</h2>
+            <p>Welcome to Weather.</p>
         </div>
     </div>
 
